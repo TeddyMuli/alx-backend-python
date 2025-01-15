@@ -3,7 +3,8 @@
 Coroutine that loops 10 times, each time asynchronously waits 1 second,
 then yields a random number between 0 and 10.
 """
-import random, asyncio
+import random
+import asyncio
 
 
 async def async_generator():
